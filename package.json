@@ -1,0 +1,18 @@
+{
+  "name": "before-nuxt-render",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^1.0.0-beta.25",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6",
+    "pinia": "^0.1.0"
+  },
+  "devDependencies": {}
+}
