@@ -18,15 +18,14 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    'plugins/install'
+    'plugins/install',
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: [
-  ],
+  buildModules: ['pinia/nuxt'],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [

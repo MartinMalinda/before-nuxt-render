@@ -17,7 +17,7 @@ export default defineComponent({
 
 <template>
   <div>
-    store: {{ store }}
+    store: {{ JSON.stringify(store.state) }}
     <Nuxt />
   </div>
 </template>
