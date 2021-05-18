@@ -9,10 +9,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/composition-api": "^0.23.4",
     "@vue/composition-api": "^1.0.0-beta.25",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.0",
-    "pinia": "^0.1.0"
+    "pinia": "^0.5.1"
   },
   "devDependencies": {}
 }

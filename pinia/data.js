@@ -1,8 +1,8 @@
-import { createStore } from 'pinia';
+import { defineStore } from "pinia";
 
-export const useDataStore = createStore({
-  id: 'data',
+export const useDataStore = defineStore({
+  id: "data",
   state: () => ({
-    name: 'initial name'
+    name: "initial name"
   })
 });
